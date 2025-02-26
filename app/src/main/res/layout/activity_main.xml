@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/phonesvector1"
+    android:gravity="top|center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/sehirSpinner"
+        android:layout_width="204dp"
+        android:layout_height="48dp"
+        android:baselineAligned="false"
+        android:padding="8dp"
+        android:layout_marginBottom="0dp"/>
+
+    <Button
+        android:id="@+id/getirButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:baselineAligned="false"
+        android:text="@string/namaz_vakitlerini_getir" />
+
+    <TextView
+        android:id="@+id/imsakText"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="İmsak: --:--"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/gunesText"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Güneş: --:--"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ogleText"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Öğle: --:--"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ikindiText"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="İkindi: --:--"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/aksamText"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Akşam: --:--"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/yatsiText"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Yatsı: --:--"
+        android:textSize="18sp" />
+
+</LinearLayout>
