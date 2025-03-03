@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
             namazViewModel.fetchNamazVakitleri(secilenSehir, currentDate)
         }
 
-        // ViewModel'deki veriyi gözlemleyip UI'yi güncelle
+        // ViewModel'deki veriyi gözlemleyip UI'yi güncelleyelim
         namazViewModel.namazVakitleri.observe(this, Observer { namazVakitleri ->
             if (namazVakitleri != null) {
                 imsakText.text = "İmsak: ${namazVakitleri.imsak}"
